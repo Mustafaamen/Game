@@ -28,7 +28,7 @@ const Board = () => {
       setWinner(newWinner);
       setTimeout(() => {
         new Audio(winSound).play(); // تشغيل الصوت عند الفوز
-      }, 200);
+      }, 10);
     }
   };
 
