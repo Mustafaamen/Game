@@ -23,6 +23,7 @@ body {
 }
 
 .square {
+  
   width: 100px;
   height: 100px;
   font-size: 2rem;
@@ -51,4 +52,12 @@ body {
   background-color: #FFD700;
   border: none;
   border-radius: 5px;
+}
+
+.game{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
 }
